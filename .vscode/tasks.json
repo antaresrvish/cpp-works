@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: test1.cpp build active file",
+			"command": "c:\\Users\\Antares\\Desktop\\cpp-works\\test1.cpp",
+			"args": [],
+			"options": {
+				"cwd": "c:\\Users\\Antares\\Desktop\\cpp-works"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: c:\\Users\\Antares\\Desktop\\cpp-works\\test1.cpp"
+		}
+	]
+}
