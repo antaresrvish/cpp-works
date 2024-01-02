@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <string>
 
 using namespace std;;
 
@@ -9,13 +11,17 @@ int main()
 
     cout << "student session nums : ";
     cin >> stu_sessions;
-    cout << "studen session times : ";
+    cout << "student session times : ";
     cin >> stu_session_times;
-    cout << stu_session_times + stu_sessions; //test
+    cout << stu_session_times + stu_sessions << endl; //test
 
+    std::vector<std::string> classes{};
     for (int i = 0; i < stu_sessions; i++)
     {
-        
+        string TmpVal;
+        cout << "Enter that shi:";
+        cin >> TmpVal;
+        classes.push_back(TmpVal);
+        cout << classes[i] << "\n";
     }
-
 }
